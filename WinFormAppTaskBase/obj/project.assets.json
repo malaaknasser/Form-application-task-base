@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "BussniesLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BussniesLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BussniesLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BussniesLogic/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryTasks/BussniesLogic.csproj",
+      "msbuildProject": "../ClassLibraryTasks/BussniesLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "BussniesLogic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\إلكتروني\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\c#TVSproject\\TaskBase\\WinFormAppTaskBase\\WinFormAppTaskBase.csproj",
+      "projectName": "WinFormAppTaskBase",
+      "projectPath": "C:\\c#TVSproject\\TaskBase\\WinFormAppTaskBase\\WinFormAppTaskBase.csproj",
+      "packagesPath": "C:\\Users\\إلكتروني\\.nuget\\packages\\",
+      "outputPath": "C:\\c#TVSproject\\TaskBase\\WinFormAppTaskBase\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\إلكتروني\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\c#TVSproject\\TaskBase\\ClassLibraryTasks\\BussniesLogic.csproj": {
+              "projectPath": "C:\\c#TVSproject\\TaskBase\\ClassLibraryTasks\\BussniesLogic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

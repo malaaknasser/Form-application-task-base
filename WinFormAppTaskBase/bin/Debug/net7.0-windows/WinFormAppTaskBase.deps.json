@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WinFormAppTaskBase/1.0.0": {
+        "dependencies": {
+          "BussniesLogic": "1.0.0"
+        },
+        "runtime": {
+          "WinFormAppTaskBase.dll": {}
+        }
+      },
+      "BussniesLogic/1.0.0": {
+        "runtime": {
+          "BussniesLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormAppTaskBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BussniesLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
